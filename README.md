@@ -23,3 +23,15 @@
 
 ### Array-Handling
 - Group books by genre using PHP arrays.
+
+## Running Project
+1. Add config/database.php with the following fields:
+- $db_host
+- $username
+- $password 
+
+2. Run the command 
+
+    `php -S localhost:8000 -t public`
+
+3. Access `localhost:8000` on the browser
